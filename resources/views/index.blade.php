@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
+        <div class="text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Learn More About Resident Evil Characters
+                    class="text-center bg-blue-100 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                    Learn More About The Resident Evil Village Characters
                 </a>
             </div>
         </div>
