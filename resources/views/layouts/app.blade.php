@@ -20,8 +20,8 @@
         <header class="bg-gray-500 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-900 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                    <a href="{{ url('/') }}" class="text-lg font-mono font-bold text-gray-900 no-underline">
+                        Resident Evil Village Database
                     </a>
                 </div>
                 <nav class="space-x-4 text-gray-900 text-sm sm:text-base">

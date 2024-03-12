@@ -6,21 +6,21 @@
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-500 text-gray-1000 py-2 px-4 font-bold text-xl uppercase">
+                    class="text-center bg-yellow-100 text-gray-1000 py-2 px-4 font-mono font-bold text-xl uppercase">
                     Learn More About The Resident Evil Village Characters
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 bg-gray-500 border-b border-gray-200">
-        <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-gray-500 border-gray-200">
+        <div class="border-l-8 border-gray-500">
+            <img src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
         </div>
 
-        <div class="m-auto sm:m-auto text-left w-4/5 block">
-            <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+        <div class="text-center font-semibold m-auto sm:m-auto w-4/5 block">
+            <h2 class="text-3xl font-mono text-gray-600">
+                Interested In Learning More About The Newest Installment In The Resident Evil Franchise?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
