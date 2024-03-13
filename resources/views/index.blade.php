@@ -12,50 +12,55 @@
             </div>
         </div>
     </div>
-
-    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-gray-500 border-gray-200">
+    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-gray-500">
         <div class="border-l-8 border-gray-500">
             <img src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
         </div>
 
-        <div class="text-center font-semibold m-auto sm:m-auto w-4/5 block">
-            <h2 class="text-3xl font-mono text-gray-600">
-                Interested In Learning More About The Newest Installment In The Resident Evil Franchise?
+        <div class="text-center m-auto sm:m-auto w-4/5 block">
+            <h2 class="text-3xl font-mono font-bold text-gray-900">
+                Interested In Learning More About The Characters In The Newest Installment In The Resident Evil Franchise?
             </h2>
             
-            <p class="py-8 text-gray-500 text-s">
+            <p class="py-8 text-gray-700 text-s">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-s pb-9">
+            <p class="text-gray-700 text-s pb-9">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
             </p>
 
-            <a 
-                href="/blog"
-                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
-                Find Out More
-            </a>
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
-        <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
-        </h2>
-
-        <span class="font-extrabold block text-4xl py-1">
-            Ux Design
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Project Management
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
-        </span>
-        <span class="font-extrabold block text-4xl py-1">
-            Backend Development
-        </span>
+    <div class="background-image1">
+        <div class="bg-transparent">
+        
+        <div class="sm:grid1 pt-15">
+            <div class=" pb-4">
+                <h2 class="text-2xl text-center font-mono p-2 text-l bg-drop-2 rounded-xl"> 
+                    Protagonists
+                </h2>
+            </div>    
+            <a 
+            href="/blog"
+            class="uppercase bg-drop-1 text-center text-gray-900 text-s font-mono font-extrabold py-3 px-8 rounded-3xl">
+                Take A Look
+            </a>
+        </div>
+            <div class="sm:grid1 pt-24">
+                <div class=" pb-4">
+                <h2 class="text-2xl text-center font-mono p-2 text-l bg-drop-3 rounded-xl"> 
+                    Antagonists
+                 </h2>
+                </div> 
+            <a 
+            href="/blog"
+            class="uppercase bg-drop-1 text-center text-gray-900 text-s font-mono font-extrabold py-3 px-8 rounded-3xl">
+                Take A Look
+            </a>
+        </div>
+    </div>
     </div>
 
     <div class="text-center py-15">
