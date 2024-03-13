@@ -30,12 +30,13 @@
 </div>
 
 @foreach ($posts as $post)
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+<div class="bg-drop-9 border-t border-gray-300">
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-transparent">
         <div>
             <img src="{{ asset('images/' . $post->image_path) }}" alt="">
         </div>
         <div>
-            <h2 class="text-gray-700 font-bold text-5xl pb-4">
+            <h2 class="text-gray-500 font-bold font-mono text-4xl pb-4">
                 {{ $post->title }}
             </h2>
 
@@ -43,11 +44,11 @@
                 By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
             </span>
 
-            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+            <p class="text-xl text-gray-500 pt-8 pb-10 leading-8 font-mono font-light">
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/blog/{{ $post->slug }}" class="uppercase bg-drop-1 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
 
@@ -77,7 +78,8 @@
                 </span>
             @endif
         </div>
-    </div>    
+    </div>  
+</div>  
 @endforeach
 
 @endsection
