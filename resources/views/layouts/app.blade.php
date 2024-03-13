@@ -24,6 +24,7 @@
                         Resident Evil Village Database
                     </a>
                 </div>
+                <img src="/images/image.png" alt="img here">
                 <nav class="space-x-4 text-gray-900 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>

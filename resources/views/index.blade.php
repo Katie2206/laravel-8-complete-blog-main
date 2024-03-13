@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="text-gray-900 pt-10">
+        <div class="text-gray-900 pt-8">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <a 
                     href="/blog"
@@ -63,22 +63,9 @@
     </div>
     </div>
 
-    <div class="text-center py-15">
-        <span class="uppercase text-s text-gray-400">
-            Blog
-        </span>
-
-        <h2 class="text-4xl font-bold py-10">
-            Recent Posts
-        </h2>
-
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
-    </div>
-
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+    <div class="bg-drop-4">
+    <div class="sm:grid grid-cols-2 w-4/5 m-auto py-15 bg-drop-4">
+        <div class="flex bg-drop-5 text-gray-100">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                 <span class="uppercase text-xs">
                     PHP
@@ -96,7 +83,8 @@
             </div>
         </div>
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+            <img src="https://wallpapercave.com/wp/wp2074015.jpg" alt="">
         </div>
     </div>
+</div>
 @endsection
