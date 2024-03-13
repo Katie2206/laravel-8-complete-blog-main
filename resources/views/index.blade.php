@@ -2,18 +2,18 @@
 
 @section('content')
     <div class="background-image grid grid-cols-1 m-auto">
-        <div class="text-gray-900 pt-8">
+        <div class="text-gray-1000 pt-8">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <a 
                     href="/blog"
-                    class="text-center bg-yellow-100 text-gray-1000 py-2 px-4 font-mono font-bold text-xl uppercase">
+                    class="text-center bg-drop-6 text-gray-1000 py-2 px-4 font-mono font-bold text-xl uppercase rounded-2xl">
                     Learn More About The Resident Evil Village Characters
                 </a>
             </div>
         </div>
     </div>
-    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-drop-6">
-        <div class="border-l-8 border-gray-500">
+    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-drop-8">
+        <div class="border-l-8 border-gray">
             <img src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
         </div>
 
