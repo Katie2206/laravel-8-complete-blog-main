@@ -56,7 +56,7 @@
                 <span class="float-right">
                     <a 
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
+                        class="text-gray-500 italic hover:text-gray-600 pb-1 border-b-2">
                         Edit
                     </a>
                 </span>
