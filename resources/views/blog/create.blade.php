@@ -33,7 +33,7 @@
             type="text"
             name="title"
             placeholder="Title..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none font-mono text-gray-300">
+            class="bg-transparent block border-b-2 w-full h-20 text-5xl outline-none font-mono text-gray-300">
 
         <textarea 
             name="description"
