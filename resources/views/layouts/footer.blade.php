@@ -1,4 +1,4 @@
-<footer class="bg-gray-500 py-20 mt-20">
+<footer class="bg-drop-7 py-20">
     <div class="sm:grid grid-cols-3 w-4/5 pb-10 m-auto border-b-2 border-gray-700">
         <div>
             <h3 class="text-l sm:font-bold text-gray-900">
@@ -19,11 +19,6 @@
                 <li class="pb-1">
                     <a href="/login">
                         Login
-                    </a>
-                </li>
-                <li class="pb-1">
-                    <a href="/register">
-                        Register
                     </a>
                 </li>
                 <li class="pb-1">
