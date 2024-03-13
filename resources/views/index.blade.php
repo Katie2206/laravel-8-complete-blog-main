@@ -64,27 +64,27 @@
     </div>
 
     <div class="bg-drop-4">
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto py-15 bg-drop-4">
-        <div class="flex bg-drop-5 text-gray-100">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
+        <div class="sm:grid grid-cols-2 w-4/5 m-auto py-15 bg-drop-4">
+            <div class="flex bg-drop-5 text-gray-100">
+                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                    <span class="uppercase text-xs">
+                        PHP
+                    </span>
 
-                <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
+                    <h3 class="text-xl font-bold py-10">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                    </h3>
 
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
+                    <a 
+                        href=""
+                        class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                        Find Out More
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img src="https://wallpapercave.com/wp/wp2074015.jpg" alt="">
             </div>
         </div>
-        <div>
-            <img src="https://wallpapercave.com/wp/wp2074015.jpg" alt="">
-        </div>
     </div>
-</div>
 @endsection
