@@ -17,15 +17,15 @@
 </head>
 <body class="bg-gray-100 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-drop-6 py-6">
+        <header class="bg-drop-8 py-6">
             <div class="container mx-auto flex justify-between items-center px-6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-mono font-bold text-gray-900 no-underline">
+                    <a href="{{ url('/') }}" class="text-lg font-mono font-bold text-gray-1000 no-underline">
                         Resident Evil Village Database
                     </a>
                 </div>
                 <img src="/images/image.png" alt="img here">
-                <nav class="space-x-4 text-gray-900 text-sm sm:text-base">
+                <nav class="space-x-4 text-gray-1000 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     @guest
