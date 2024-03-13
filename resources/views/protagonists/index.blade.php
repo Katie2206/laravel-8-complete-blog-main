@@ -21,7 +21,7 @@
 @if (Auth::check())
     <div class="pt-15 w-4/5 m-auto border-b-30">
         <a 
-            href="/blog/create"
+            href="/protagonists/create"
             class="bg-drop-6 uppercase bg-transparent text-gray-100 text-xs font-mono font-extrabold py-3 px-5 rounded-3xl">
             Add Character
         </a>
@@ -30,7 +30,7 @@
 </div>
 
 @foreach ($posts as $post)
-<div class="bg-drop-9 border-t border-gray-300">
+<div class="bg-drop-9">
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-transparent">
         <div>
             <img src="{{ asset('images/' . $post->image_path) }}" alt="">
@@ -48,14 +48,14 @@
                 {{ $post->description }}
             </p>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-drop-1 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
+            <a href="/protagonists/{{ $post->slug }}" class="uppercase bg-drop-1 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
                     <a 
-                        href="/blog/{{ $post->slug }}/edit"
+                        href="/protagonists/{{ $post->slug }}/edit"
                         class="text-gray-500 italic hover:text-gray-600 pb-1 border-b-2">
                         Edit
                     </a>
@@ -63,7 +63,7 @@
 
                 <span class="float-right">
                      <form 
-                        action="/blog/{{ $post->slug }}"
+                        action="/protagonists/{{ $post->slug }}"
                         method="POST">
                         @csrf
                         @method('delete')

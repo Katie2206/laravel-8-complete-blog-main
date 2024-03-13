@@ -20,7 +20,7 @@ class PostsController extends Controller
      */
     public function index()
     {
-        return view('blog.index')
+        return view('protagonists.index')
             ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
     }
 
@@ -31,7 +31,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        return view('blog.create');
+        return view('protagonists.create');
     }
 
     /**
@@ -60,7 +60,7 @@ class PostsController extends Controller
             'user_id' => auth()->user()->id
         ]);
 
-        return redirect('/blog')
+        return redirect('/protagonists')
             ->with('message', 'Your post has been added!');
     }
 
@@ -72,7 +72,7 @@ class PostsController extends Controller
      */
     public function show($slug)
     {
-        return view('blog.show')
+        return view('protagonists.show')
             ->with('post', Post::where('slug', $slug)->first());
     }
 
@@ -84,7 +84,7 @@ class PostsController extends Controller
      */
     public function edit($slug)
     {
-        return view('blog.edit')
+        return view('protagonists.edit')
             ->with('post', Post::where('slug', $slug)->first());
     }
 
@@ -110,7 +110,7 @@ class PostsController extends Controller
                 'user_id' => auth()->user()->id
             ]);
 
-        return redirect('/blog')
+        return redirect('/protagonists')
             ->with('message', 'Your post has been updated!');
     }
 
@@ -125,7 +125,7 @@ class PostsController extends Controller
         $post = Post::where('slug', $slug);
         $post->delete();
 
-        return redirect('/blog')
+        return redirect('/protagonists')
             ->with('message', 'Your post has been deleted!');
     }
 }
