@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="bg-drop-9">
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="text-6xl">
-            Update Post
+        <h1 class="text-6xl font-mono text-gray-400 text-center">
+            Update Character Information
         </h1>
     </div>
 </div>
@@ -31,21 +32,23 @@
 
         <input 
             type="text"
-            name="title"
+            name="Name"
             value="{{ $post->title }}"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-5xl outline-none font-mono text-gray-300">
 
         <textarea 
             name="description"
-            placeholder="Description..."
-            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $post->description }}</textarea> 
+            placeholder="Character Information..."
+            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none font-mono text-gray-300">{{ $post->description }}</textarea> 
 
         <button    
             type="submit"
-            class="uppercase mt-15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
-            Submit Post
+            class="uppercase bg-drop-6 mt-15 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl font-mono">
+            Update
         </button>
+        <div class="border-b-30"></div>
     </form>
+</div>
 </div>
 
 @endsection

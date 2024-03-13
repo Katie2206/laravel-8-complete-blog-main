@@ -32,12 +32,12 @@
         <input 
             type="text"
             name="title"
-            placeholder="Title..."
+            placeholder="Name..."
             class="bg-transparent block border-b-2 w-full h-20 text-5xl outline-none font-mono text-gray-300">
 
         <textarea 
             name="description"
-            placeholder="Description..."
+            placeholder="Character Information..."
             class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none font-mono text-gray-300"></textarea>
 
         <div class="bg-grey-lighter pt-15">
