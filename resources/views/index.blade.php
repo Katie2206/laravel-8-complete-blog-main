@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-gray-500">
+    <div class="sm:grid grid-cols-2 gap-20 py-15 bg-drop-6">
         <div class="border-l-8 border-gray-500">
             <img src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
         </div>
