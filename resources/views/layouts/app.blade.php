@@ -27,7 +27,7 @@
                 <img src="/images/image.png" alt="img here">
                 <nav class="space-x-4 text-gray-1000 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
-                    <a class="no-underline hover:underline" href="/blog">Blog</a>
+                    <a class="no-underline hover:underline" href="/protagonists">Protagonists</a>
                     @guest
                         <a class="no-underline hover:underline" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))

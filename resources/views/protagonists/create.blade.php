@@ -24,7 +24,7 @@
 
 <div class="w-4/5 m-auto pt-20">
     <form 
-        action="/blog"
+        action="/protagonists"
         method="POST"
         enctype="multipart/form-data">
         @csrf
