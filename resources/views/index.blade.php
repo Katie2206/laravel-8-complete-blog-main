@@ -14,7 +14,7 @@
     </div>
     <div class="sm:grid grid-cols-2 gap-20 py-15 bg-drop-8">
         <div class="border-l-8 border-gray">
-            <img src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
+            <img class="imgsize" src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
         </div>
 
         <div class="text-center m-auto sm:m-auto w-4/5 block">
@@ -51,7 +51,7 @@
                  </h2>
                 </div> 
             <a 
-            href="/"
+            href="/antagonists"
             class="uppercase bg-drop-1 text-center text-gray-900 text-s font-mono font-extrabold py-3 px-8 rounded-3xl">
                 Take A Look
             </a>
@@ -62,22 +62,22 @@
     <div class="bg-drop-4">
         <div class="sm:grid grid-cols-2 w-4/5 m-auto py-15 bg-drop-4">
             <div class="flex bg-drop-5 text-gray-100">
-                <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+                <div class="m-auto pt-4 sm:m-auto w-4/5 block">
                     <span class="uppercase text-xs">
                         Want to learn more about the Resident Evil franchise? Why not check out the previous game?
                     </span>
 
-                    <h3 class="text-xl font-bold py-8">
+                    <h3 class="text-xl font-bold py-4">
                         Resident Evil 7: Biohazard
                     </h3>
 
-                    <h3 class="text-xl font-mono">
+                    <h3 class="text-m font-mono">
                         Resident Evil 7: Biohazard is set in mid-2017 somewhere in the southern United States, where there have been reports of "ghosts" sighted around the bayou of the town, Dulvey. The game proper takes place after the events of Beginning Hour, which ended with the murder of a three-man TV crew by the infected Baker family members Jack and Mia. It features a new protagonist named Ethan Winters, a civilian who offers fewer combat skills than most previous Resident Evil protagonists. Ethan is searching for his missing wife, Mia, which leads him to a derelict plantation mansion, home of the Baker family.
                     </h3>
                 </div>
             </div>
             <div>
-                <img src="https://wallpapercave.com/wp/wp2074015.jpg" alt="">
+                <img class="imgsize" src="https://wallpapercave.com/wp/wp2074015.jpg" alt="">
             </div>
         </div>
     </div>
