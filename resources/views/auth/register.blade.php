@@ -1,12 +1,12 @@
 @extends('layouts.app')
-
+<div class="background-image3">
 @section('content')
 <main class="sm:container sm:mx-auto sm:max-w-lg sm:mt-10">
     <div class="flex pb-11">
         <div class="w-full">
-            <section class="flex flex-col break-words bg-white sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
+            <section class="flex flex-col break-words bg-gray-200 sm:border-1 sm:rounded-md sm:shadow-sm sm:shadow-lg">
 
-                <header class="font-semibold bg-drop-6 font-mono text-gray-700 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
+                <header class="font-semibold bg-drop-6 font-mono text-gray-900 py-5 px-6 sm:py-6 sm:px-8 sm:rounded-t-md">
                     {{ __('Register') }}
                 </header>
 
@@ -89,4 +89,5 @@
         </div>
     </div>
 </main>
+</div>
 @endsection
