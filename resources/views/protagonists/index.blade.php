@@ -5,7 +5,7 @@
 <div class="w-4/5 m-auto text-center">
     <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl text-gray-300 font-mono uppercase">
-            Characters
+            Protagonists
         </h1>
     </div>
 </div>
@@ -23,7 +23,7 @@
         <a 
             href="/protagonists/create"
             class="bg-drop-6 uppercase bg-transparent text-gray-100 text-xs font-mono font-extrabold py-3 px-5 rounded-3xl">
-            Add Character Blog
+            Add Protagonists Blog
         </a>
     </div>
 @endif
