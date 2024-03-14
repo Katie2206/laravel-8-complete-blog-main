@@ -13,8 +13,8 @@
         </div>
     </div>
     <div class="sm:grid grid-cols-2 gap-20 py-15 bg-drop-8">
-        <div class="border-l-8 border-gray">
-            <img class="imgsize" src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt="">
+        <div class="bg-slideshow border-l-8-slideshow">
+            {{-- <img class="imgsize" src="https://dailyplanetdc.com/wp-content/uploads/2021/05/resident-evil-village-4k-wallpaper-3840x2160-uhdpaper.com-60.1_a.jpg" width="700" alt=""> --}}
         </div>
 
         <div class="text-center m-auto sm:m-auto w-4/5 block">
