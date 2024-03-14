@@ -61,7 +61,7 @@ class PostsController extends Controller
         ]);
 
         return redirect('/protagonists')
-            ->with('message', 'Your post has been added!');
+            ->with('message', 'Your information has been added!');
     }
 
     /**
@@ -111,7 +111,7 @@ class PostsController extends Controller
             ]);
 
         return redirect('/protagonists')
-            ->with('message', 'Your post has been updated!');
+            ->with('message', 'Your information has been updated!');
     }
 
     /**
@@ -126,7 +126,7 @@ class PostsController extends Controller
         $post->delete();
 
         return redirect('/protagonists')
-            ->with('message', 'Your post has been deleted!');
+            ->with('message', 'Your information has been deleted!');
     }
 }
 

@@ -5,14 +5,14 @@
 <div class="w-4/5 m-auto text-center">
     <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl text-gray-300 font-mono uppercase">
-            Protagonists
+            Characters
         </h1>
     </div>
 </div>
 
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
-        <p class="w-2/6 mb-4 text-center text-gray-50 bg-green-500 rounded-2xl py-4">
+        <p class="w-1/6 mb-4 text-center text-gray-50 bg-green-500 rounded-2xl py-4">
             {{ session()->get('message') }}
         </p>
     </div>
@@ -23,7 +23,7 @@
         <a 
             href="/protagonists/create"
             class="bg-drop-6 uppercase bg-transparent text-gray-100 text-xs font-mono font-extrabold py-3 px-5 rounded-3xl">
-            Add Character
+            Add Character Blog
         </a>
     </div>
 @endif
@@ -41,10 +41,10 @@
             </h2>
 
             <span class="text-gray-500">
-                By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
+                By <span class="font-bold italic text-gray-600">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
             </span>
 
-            <p class="text-xl text-gray-500 pt-8 pb-10 leading-8 font-mono font-light">
+            <p class="text-xl text-gray-400 pt-8 pb-10 leading-8 font-mono font-light">
                 {{ $post->description }}
             </p>
 
