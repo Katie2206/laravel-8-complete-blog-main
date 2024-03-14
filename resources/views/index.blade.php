@@ -18,16 +18,12 @@
         </div>
 
         <div class="text-center m-auto sm:m-auto w-4/5 block">
-            <h2 class="text-3xl font-mono font-bold text-gray-900">
-                Interested In Learning More About The Characters In The Newest Installment In The Resident Evil Franchise?
+            <h2 class="text-3xl font-mono font-bold text-gray-1000">
+                Resident Evil Village
             </h2>
             
-            <p class="py-8 text-gray-700 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
-            </p>
-
-            <p class="text-gray-700 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+            <p class="py-8 font-mono text-gray-1000 text-2xl">
+                "Years after the tragic events of Resident Evil 7 biohazard, Ethan Winters has started over with his wife Mia, finally living in peace and putting the past behind them. However, Chris Redfield, the legendary hero from previous Resident Evil games, suddenly disrupts their life, throwing a devastated Ethan into a new and twisted nightmare in search of answers."
             </p>
 
         </div>
@@ -68,18 +64,16 @@
             <div class="flex bg-drop-5 text-gray-100">
                 <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
                     <span class="uppercase text-xs">
-                        PHP
+                        Want to learn more about the Resident Evil franchise? Why not check out the previous game?
                     </span>
 
-                    <h3 class="text-xl font-bold py-10">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                    <h3 class="text-xl font-bold py-8">
+                        Resident Evil 7: Biohazard
                     </h3>
 
-                    <a 
-                        href=""
-                        class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                        Find Out More
-                    </a>
+                    <h3 class="text-xl font-mono">
+                        Resident Evil 7: Biohazard is set in mid-2017 somewhere in the southern United States, where there have been reports of "ghosts" sighted around the bayou of the town, Dulvey. The game proper takes place after the events of Beginning Hour, which ended with the murder of a three-man TV crew by the infected Baker family members Jack and Mia. It features a new protagonist named Ethan Winters, a civilian who offers fewer combat skills than most previous Resident Evil protagonists. Ethan is searching for his missing wife, Mia, which leads him to a derelict plantation mansion, home of the Baker family.
+                    </h3>
                 </div>
             </div>
             <div>
