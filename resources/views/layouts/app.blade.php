@@ -24,6 +24,7 @@
                         Resident Evil Village Database
                     </a>
                 </div>
+                <img class="imgsize2 pl-8" src="/images/capcom.png" alt="">
                 <div class="background-2"></div>
                 <nav class="space-x-4 text-gray-1000 text-sm sm:text-base">
                     <a class="no-underline hover:underline" href="/">Home</a>
