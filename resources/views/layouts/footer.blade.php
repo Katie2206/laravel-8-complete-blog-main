@@ -17,6 +17,11 @@
                     </a>
                 </li>
                 <li class="pb-1">
+                    <a href="/antagonists">
+                        Antagonists
+                    </a>
+                </li>
+                <li class="pb-1">
                     <a href="/login">
                         Login
                     </a>

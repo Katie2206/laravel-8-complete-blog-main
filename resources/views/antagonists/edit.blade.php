@@ -5,7 +5,7 @@
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
         <h1 class="text-6xl font-mono text-gray-400 text-center">
-            Update Character Information
+            Update Antagonist Blog
         </h1>
     </div>
 </div>
