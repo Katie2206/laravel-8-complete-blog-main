@@ -32,7 +32,7 @@
 
         <input 
             type="text"
-            name="Name"
+            name="title"
             value="{{ $post->title }}"
             class="bg-transparent block border-b-2 w-full h-20 text-5xl outline-none font-mono text-gray-300">
 
