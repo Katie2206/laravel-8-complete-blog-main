@@ -47,11 +47,18 @@
             <p class="text-xl text-gray-400 pt-8 pb-10 leading-8 font-mono font-light">
                 {{ $post->description }}
             </p>
-
+        <div class="flexbutton">
+            <div>
             <a href="/protagonists/{{ $post->slug }}" class="uppercase bg-drop-1 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
                 Keep Reading
             </a>
-
+            </div>
+            <div class="pt-14">
+            <a href="/comment/{{ $post->slug }}" class="uppercase bg-drop-2 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
+                Comment
+            </a>
+            </div>
+        </div>
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
                     <a 
@@ -76,6 +83,21 @@
 
                     </form>
                 </span>
+                {{-- <div class="py-12">
+                    <form id="like" method="POST">
+                        <select name="Likeability">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                        </select>
+                        <input type="submit" name="Submit" value="Submit">
+                    </form>
+            // if(isset($_POST[Likeability])){
+            //     echo "Likeability: ".htmlspecialchars($_POST['Likeability']);
+            // } --}}
+                </div>
             @endif
         </div>
     </div>  

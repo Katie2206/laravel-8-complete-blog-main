@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\AntagonistController;
+use App\Http\Controllers\CommentController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,6 +21,8 @@ Route::get('/', [PagesController::class, 'index']);
 Route::resource('/protagonists', PostsController::class);
 
 Route::resource('/antagonists', AntagonistController::class);
+
+Route::resource('/comment', CommentController::class);
 
 Auth::routes();
 
