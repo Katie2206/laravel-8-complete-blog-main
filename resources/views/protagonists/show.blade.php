@@ -13,9 +13,6 @@
     <div class="pl-36">
     <img src="{{ asset('images/' . $post->image_path) }}" alt="">
     </div>
-    <div class="pr-36">
-        {{ $post->comment }}
-    </div>
 </div>
 
 <div class="w-4/5 m-auto pt-20 pb-9">
