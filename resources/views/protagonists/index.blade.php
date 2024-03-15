@@ -53,11 +53,6 @@
                 Keep Reading
             </a>
             </div>
-            <div class="pt-14">
-            <a href="/comment/{{ $post->slug }}" class="uppercase bg-drop-2 text-gray-100 text-lg font-mono font-extrabold py-4 px-8 rounded-3xl">
-                Comment
-            </a>
-            </div>
         </div>
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
